@@ -1,0 +1,45 @@
+.preim {
+
+	&__page {
+
+		background: linear-gradient($light1, $light4);
+
+	}
+
+	&__content {
+		padding: 40px 40px 24px 40px;
+	}
+
+	&__title {
+		margin-bottom: 16px;
+	}
+
+}
+
+@media only screen and (max-width : 1800px) {
+
+	.preim {
+
+		&__content {
+			padding: 32px 32px 16px 32px;
+		}
+
+		&__title {
+			margin-bottom: 8px;
+		}
+
+	}
+
+}
+
+@media only screen and (max-width : 720px) {
+
+	.preim {
+
+		&__content {
+			padding: 24px 24px 8px 24px;
+		}
+
+	}
+
+}

@@ -1,0 +1,173 @@
+@import "fonts";
+@import "libs";
+@import "vars";
+
+* {
+	box-sizing: border-box;
+}
+
+::placeholder {
+	color: $link;
+	font-size: 14px;
+}
+
+::selection {
+	background-color: $link;
+	color: #fff;
+}
+
+body {
+	min-width: 320px;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
+	input, textarea {
+		border: $link 1px solid;
+		outline: none;
+		&:focus:required:invalid {
+			border-color: red;
+		}
+		&:required:valid {
+			border-color: green;
+		}
+	}
+}
+
+.title1 {
+	margin: 0;
+	line-height: 1.5em;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.title2 {
+	margin: 0;
+	line-height: 1.5em;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.title3 {
+	margin: 0;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.sub1 {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 1.5em;
+}
+
+.sub2 {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.text {
+	font-size: 16px;
+	line-height: 1.5em;
+	font-weight: 300;
+	color: $dark1;
+}
+
+.small {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+b {
+	font-weight: 500;
+	color: $dark3;
+}
+
+q {
+	font-style: italic;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+@media only screen and (max-width : 1800px) {
+
+	.title1 {
+		font-size: 32px;
+		font-weight: 500;
+	}
+
+	.title2 {
+		font-size: 20px;
+	}
+
+	.sub1 {
+		font-size: 20px;
+	}
+
+	.sub2 {
+		font-size: 16px;
+	}
+
+}
+
+
+@media only screen and (max-width : 1100px) {
+
+	.title1 {
+		font-size: 24px;
+		font-weight: 700;
+	}
+
+	.title2 {
+		font-size: 18px;
+		font-weight: 700;
+	}
+
+	.sub1 {
+		font-size: 18px;
+	}
+
+	.text {
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+}
+
+
+@media only screen and (max-width : 720px) {
+
+	.title1 {
+		font-size: 20px;
+	}
+
+	.sub1 {
+		font-size: 16px;
+	}
+
+}
+
+
+@import "components/btn";
+
+@import "cards/card";
+@import "cards/article";
+@import "cards/video";
+@import "cards/preim";
+@import "cards/notfound";
+
+@import "blocks/form";
+@import "blocks/header";
+@import "blocks/main";
+@import "blocks/navbar";
+@import "blocks/nav";
+@import "blocks/call";

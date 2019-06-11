@@ -1,0 +1,150 @@
+.call {
+
+	&__page {
+		position: absolute;
+		width: 0;
+		overflow: hidden;
+		top: 0;
+		right: 0;
+		z-index: 3;
+		background: $light1;
+		height: 100vh;
+		box-shadow: $shadow3;
+		transition: $transition;
+		overflow-y: scroll;
+		-ms-overflow-style: none;
+		overflow: -moz-scrollbars-none;
+
+		&--fix {
+			position: fixed;
+		}
+
+		&::-webkit-scrollbar {
+			width: 0 !important;
+		}
+
+		&--active {
+			width: 384px;
+			transition: $transition;
+		}
+
+	}
+
+	&__wrap {
+		width: 384px;
+		padding: 40px;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	&__close {
+		font-size: 14px;
+		text-transform: uppercase;
+		color: $dark5;
+		transition: $transition;
+		display: flex;
+		justify-content: flex-end;
+		margin-bottom: 24px;
+		cursor: pointer;
+
+		&:hover {
+			color: $dark1;
+		}
+
+	}
+
+	&__done {
+		position: absolute;
+		top: 0px;
+		right: 40px;
+		width: 304px;
+		background: $light1;
+		box-shadow: $shadow3;
+		z-index: 4;
+		display: flex;
+		padding: 0 16px;
+		border-radius: 5px;
+		align-items: center;
+		overflow: hidden;
+		height: 0;
+		transition: $transition;
+
+		&--active {
+			top: 40px;
+			height: 72px;
+		}
+
+	}
+
+	&__dicon {
+		background: linear-gradient(#65B362, #559954);
+		width: 40px;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 5px;
+		box-shadow: $shadow4;
+		flex-shrink: 0;
+		margin-right: 16px;
+	}
+
+	&__dtext {
+		line-height: 1.5em;
+		color: $dark1;
+	}
+
+}
+
+
+@media only screen and (max-width : 1100px) {
+
+	.call {
+
+		&__page {
+			top: 40px;
+		}
+
+	}
+
+}
+
+@media only screen and (max-width : 720px) {
+
+	.call {
+
+		&__page {
+			height: 100%;
+
+			&--active {
+				width: 100%;
+			}
+			
+			&--fix {
+				position: fixed;
+			}
+
+		}
+
+		&__wrap {
+			padding: 24px;
+			width: auto;
+			left: calc(50% - 176px);
+		}
+
+	}
+
+}
+
+@media only screen and (max-width : 416px) {
+
+	.call {
+
+		&__wrap {
+			left: 0;
+		}
+
+	}
+
+}

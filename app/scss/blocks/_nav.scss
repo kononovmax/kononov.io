@@ -1,0 +1,106 @@
+.nav {
+
+	&__page {
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 2;
+		background: $dark4;
+		width: 100%;
+		height: 40px;
+		padding: 0 16px;
+		display: flex;
+		box-shadow: $shadow2;
+
+		&--fix {
+			left: 272px;
+			position: fixed;
+		}
+
+	}
+
+	&__link {
+		border-right: $border-light;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		padding: 0 16px;
+		color: $light3;
+		font-size: 14px;
+		font-weight: 300;
+		transition: $transition;
+
+		&:hover {
+			color: $light2;
+		}
+
+	}
+
+	&__back {
+		border-left: $border-light;
+		border-right: $border-light;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		padding: 0 16px 0 32px;
+		color: $light3;
+		font-size: 14px;
+		font-weight: 300;
+		position: relative;
+
+		&:before {
+			content: '';
+			position: absolute;
+			background: url('../img/icons/arrow-white.svg') no-repeat;
+			width: 24px;
+			height: 24px;
+			left: 8px;
+			top: 8px;
+			transform: rotate(90deg);
+			opacity: .84;
+			transition: $transition;
+		}
+
+		&:hover {
+			color: $light1;
+
+			&:before {
+				opacity: 1;
+			}
+
+		}
+
+	}
+
+}
+
+
+@media only screen and (max-width : 1800px) {
+
+	.nav {
+
+		&__page {
+
+			&--fix {
+				left: 256px;
+			}
+
+		}
+
+	}
+
+}
+
+
+@media only screen and (max-width : 1100px) {
+
+	.nav {
+
+		&__page {
+			display: none;
+		}
+
+	}
+
+}

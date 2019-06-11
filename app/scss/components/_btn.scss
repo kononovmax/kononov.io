@@ -1,0 +1,21 @@
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: $dark2;
+	box-shadow: $shadow4;
+	border-radius: 5px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #fff;
+	height: 64px;
+	cursor: pointer;
+	transition: .3s;
+	font-weight: 500;
+	border: none;
+
+	&:hover {
+		background: $dark1;
+	}
+	
+}
