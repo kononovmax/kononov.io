@@ -85,7 +85,7 @@ a {
 }
 
 b {
-	font-weight: 500;
+	font-weight: 400;
 	color: $dark3;
 }
 
@@ -94,6 +94,10 @@ q {
 }
 
 img {
+	max-width: 100%;
+}
+
+video {
 	max-width: 100%;
 }
 

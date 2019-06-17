@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="568" height="304" viewBox="0 0 568 304">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_91" data-name="Rectangle 91" width="568" height="304" transform="translate(56 456)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="bliz" transform="translate(-56 -456)" clip-path="url(#clip-path)">
+    <g id="Group_20" data-name="Group 20">
+      <rect id="Rectangle_81" data-name="Rectangle 81" width="200" height="176" transform="translate(120 520)" fill="#003459"/>
+      <rect id="Rectangle_69" data-name="Rectangle 69" width="16" height="16" transform="translate(152 640)" fill="#00a8e8"/>
+      <rect id="Rectangle_70" data-name="Rectangle 70" width="16" height="16" transform="translate(192 640)" fill="#00a8e8"/>
+      <rect id="Rectangle_71" data-name="Rectangle 71" width="16" height="16" transform="translate(232 640)" fill="#00a8e8"/>
+      <rect id="Rectangle_72" data-name="Rectangle 72" width="16" height="16" transform="translate(272 640)" fill="#00a8e8"/>
+      <rect id="Rectangle_73" data-name="Rectangle 73" width="16" height="16" transform="translate(272 600)" fill="#00a8e8"/>
+      <rect id="Rectangle_77" data-name="Rectangle 77" width="16" height="16" transform="translate(272 560)" fill="#00a8e8"/>
+      <rect id="Rectangle_74" data-name="Rectangle 74" width="16" height="16" transform="translate(232 600)" fill="#00a8e8"/>
+      <rect id="Rectangle_78" data-name="Rectangle 78" width="16" height="16" transform="translate(232 560)" fill="#00a8e8"/>
+      <rect id="Rectangle_75" data-name="Rectangle 75" width="16" height="16" transform="translate(192 600)" fill="#00a8e8"/>
+      <rect id="Rectangle_79" data-name="Rectangle 79" width="16" height="16" transform="translate(192 560)" fill="#00a8e8"/>
+      <rect id="Rectangle_76" data-name="Rectangle 76" width="16" height="16" transform="translate(152 600)" fill="#00a8e8"/>
+      <rect id="Rectangle_80" data-name="Rectangle 80" width="16" height="16" transform="translate(152 560)" fill="#00a8e8"/>
+      <rect id="Rectangle_53" data-name="Rectangle 53" width="176" height="16" transform="translate(384 520)" fill="#00a8e8"/>
+      <rect id="Rectangle_82" data-name="Rectangle 82" width="176" height="16" transform="translate(384 656)" fill="#003459"/>
+      <rect id="Rectangle_83" data-name="Rectangle 83" width="176" height="16" transform="translate(384 680)" fill="#003459"/>
+      <rect id="Rectangle_84" data-name="Rectangle 84" width="176" height="16" transform="translate(384 632)" fill="#003459"/>
+      <rect id="Rectangle_85" data-name="Rectangle 85" width="176" height="16" transform="translate(384 608)" fill="#003459"/>
+      <rect id="Rectangle_86" data-name="Rectangle 86" width="176" height="16" transform="translate(384 584)" fill="#003459"/>
+      <rect id="Rectangle_87" data-name="Rectangle 87" width="176" height="16" transform="translate(384 560)" fill="#003459"/>
+    </g>
+  </g>
+</svg>

@@ -10,6 +10,7 @@
 
 		&--big {
 			width: 50%;
+			flex-grow: 1;
 		}
 
 		&--small {
@@ -23,6 +24,10 @@
 
 		&:last-child {
 			flex-grow: 1;
+		}
+
+		> a:hover .card__overlay {
+			opacity: .7;
 		}
 
 	}
@@ -83,6 +88,7 @@
 		width: 100%;
 		height: 100%;
 		background: $overlay;
+		transition: $transition;
 	}
 
 

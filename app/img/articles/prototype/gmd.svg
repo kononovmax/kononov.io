@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="440" height="200" viewBox="0 0 440 200">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_92" data-name="Rectangle 92" width="440" height="200" transform="translate(96 472)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="gmd11" x="18" y="44" width="116" height="116" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="gmd2" x="156" y="40" width="128" height="128" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-2"/>
+      <feFlood flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="gmd3" x="288" y="32" width="152" height="152" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="gmd" transform="translate(-96 -472)" clip-path="url(#clip-path)">
+    <g id="Group_21" data-name="Group 21">
+      <g transform="matrix(1, 0, 0, 1, 96, 472)" filter="url(#gmd11)">
+        <rect id="gmd11-2" data-name="gmd11" width="104" height="104" rx="5" transform="translate(24 48)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 96, 472)" filter="url(#gmd2)">
+        <rect id="gmd2-2" data-name="gmd2" width="104" height="104" rx="5" transform="translate(168 48)" fill="#f5f5f5"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 96, 472)" filter="url(#gmd3)">
+        <rect id="gmd3-2" data-name="gmd3" width="104" height="104" rx="5" transform="translate(312 48)" fill="#ebebeb"/>
+      </g>
+      <text id="_0_1px_2px_20_" data-name="0 1px 2px 20%" transform="translate(115 655)" fill="#fff" font-size="16" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">0 1px 2px 20%</tspan></text>
+      <text id="_0_2px_4px_18_" data-name="0 2px 4px 18%" transform="translate(258 655)" fill="#fff" font-size="16" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">0 2px 4px 18%</tspan></text>
+      <text id="_0_3px_6px_16_" data-name="0 3px 6px 16%" transform="translate(404 655)" fill="#fff" font-size="16" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">0 3px 6px 16%</tspan></text>
+      <text id="HSB_0_0_100_" data-name="HSB (0,0, 100)" transform="translate(116 500)" fill="#fff" font-size="16" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">HSB (0,0, 100)</tspan></text>
+      <text id="HSB_0_0_98_" data-name="HSB (0,0, 98)" transform="translate(261 500)" fill="#fff" font-size="16" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">HSB (0,0, 98)</tspan></text>
+      <text id="HSB_0_0_96_" data-name="HSB (0,0, 96)" transform="translate(409 500)" fill="#fff" font-size="16" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">HSB (0,0, 96)</tspan></text>
+    </g>
+  </g>
+</svg>
