@@ -5,6 +5,7 @@
 	background: $dark2;
 	box-shadow: $shadow4;
 	border-radius: 5px;
+	font-size: 14px;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	color: #fff;
@@ -16,6 +17,15 @@
 
 	&:hover {
 		background: $dark1;
+	}
+
+	&--blue {
+		background: $link;
+
+		&:hover {
+			background: darken($link, 10%);
+		}
+
 	}
 	
 }

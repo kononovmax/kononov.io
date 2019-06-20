@@ -1,0 +1,164 @@
+.landing {
+
+	&__head {
+		padding: 8px;
+	}
+
+	&__wrap {
+		background: url('../img/posters/landing-big.jpg') no-repeat;
+		background-size: cover;
+		background-position: center;
+		padding: 104px;
+		border-radius: 5px;
+		box-shadow: $shadow3;
+	}
+
+	&__content {
+		text-align: center;
+	}
+
+	&__logo {
+		width: 24px;
+		margin: 0 auto 64px auto;
+	}
+
+	&__title {
+		height: 104px;
+		max-width: 992px;
+		padding: 0 40px;
+		font-size: 40px;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		margin: 0 auto 40px auto;
+		font-weight: 700;
+		background: $light1;
+		border-radius: 5px;
+		box-shadow: inset $shadow3;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__triggers {
+		display: flex;
+		justify-content: center;;
+	}
+
+	&__trigger {
+		padding: 12px 16px;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		background: $light2;
+		border-radius: 5px;
+		box-shadow: inset $shadow2;
+
+		b {
+			font-weight: 700;
+		}
+
+		&:first-child {
+			margin-right: 24px;
+		}
+
+	}
+
+	&__btn {
+		margin: 64px auto 0 auto;
+		width: 320px;
+	}
+
+}
+
+@media only screen and (max-width : 1800px) {
+
+	.landing {
+
+		&__wrap {
+			padding: 64px;
+		}
+
+		&__logo {
+			margin-bottom: 40px;
+		}
+
+		&__title {
+			max-width: 864px;
+			text-transform: none;
+			letter-spacing: 0;
+			padding: 0 16px;
+		}
+
+		&__btn {
+			margin-top: 40px;
+		}
+		
+	}
+
+}
+
+
+@media only screen and (max-width : 1100px) {
+
+	.landing {
+
+		&__title {
+			max-width: 464px;
+			height: 64px;
+			font-size: 24px;
+			margin-bottom: 24px;
+		}
+
+		&__triger {
+
+			&:first-child {
+				margin-right: 16px;
+			}
+
+		}
+
+	}
+
+}
+
+
+@media only screen and (max-width : 720px) {
+
+	.landing {
+
+		&__wrap {
+			padding: 24px;
+		}
+
+		&__logo {
+			margin-bottom: 16px;
+		}
+
+		&__title {
+			height: 88px;
+			margin-bottom: 16px;
+			max-width: 100%;
+		}
+
+		&__triggers {
+			justify-content: space-between;
+		}
+
+		&__trigger {
+			width: 100%;
+			letter-spacing: 0;
+			padding: 12px 8px;
+
+			&:first-child {
+				margin-right: 8px;
+			}
+
+		}
+
+		&__btn {
+			width: 100%;
+			margin-top: 16px;
+		}
+
+	}
+
+}
