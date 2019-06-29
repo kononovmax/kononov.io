@@ -1,13 +1,21 @@
 .preim {
 
 	&__page {
+		box-shadow: $shadow1;
 
-		background: linear-gradient($light1, $light4);
+		&--dark {
+			background: $light4;
+		}
+
+		&--blue {
+			background: $link;
+		}
 
 	}
 
 	&__content {
 		padding: 40px 40px 24px 40px;
+		text-align: center;
 	}
 
 	&__title {

@@ -2,151 +2,56 @@
 
 	&__page {
 		padding: 8px;
+		height: auto;
+		flex-grow: 1;
 	}
 
 	&__wrap {
-		background: $dark2;
+		background: $light2;
 		border-radius: 5px;
-		box-shadow: $shadow2;
-		padding: 40px;
-		height: 100%;
-		display: flex;
-		flex-direction: column;
-	}
-
-	&__title {
-		color: $light1;
-		font-size: 24px;
-		font-weight: 300;
-		line-height: 1.5em;
-		margin-bottom: 40px;
-
-		img {
-			width: 16px;
-		}
-
-	}
-
-	&__table {
-		border-radius: 5px;
-		border: $border-light;
-		width: 440px;
-		margin-bottom: 16px;
-	}
-
-	&__tr {
-		display: flex;
-
-		&:first-child {
-			border-bottom: $border-light;
-			font-size: 14px;
-			height: 40px;
-			text-transform: uppercase;
-			letter-spacing: 0.1em;
-			color: $light2;
-			font-size: 14px;
-			font-weight: 300;
-		}
-
-		&:last-child {
-			height: 64px;
-			color: $light1;
-			font-size: 40px;
-			font-weight: 700;
-
-			span {
-				font-weight: 300;
-				padding: 0 8px;
-			}
-
-		}
-
-	}
-
-	&__td {
+		box-shadow: $shadow1;
 		height: 100%;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+	}
 
-		&:first-child {
-			width: 168px;
-			border-right: $border-light;
+	&__t1 {
+		font-size: 16px;
+		color: $dark3;
+	}
+
+	&__t2 {
+		font-size: 24px;
+		color: $dark2;
+		margin: 40px 0;
+
+		span {
+			margin-left: 16px;
+			padding: 16px;
+			background: $link;
+			border-radius: 5px;
+			box-shadow: inset $shadow1;
+			color: $light1;
+			text-shadow: $shadow1;
 		}
 
-		&:last-child {
-			width: 272px;
-		}
+	}
 
+	&__t3 {
+		color: $dark1;
+		font-size: 40px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 	}
 
 	&__arrow {
 		opacity: .1;
-	}
-
-	&__end {
-		margin-top: auto;
-	}
-
-	&__desc {
-		color: $light3;
-
-		&:first-child {
-			margin-bottom: 16px;
-		}
-
-		a {
-			color: $link;
-			text-decoration: underline;
-		}
-
-	}
-
-}
-
-
-@media only screen and (max-width : 1800px) {
-
-	.sales {
-
-		&__title {
-			font-size: 20px;
-			margin-bottom: 24px;
-		}
-
-		&__table {
-			width: 272px;
-		}
-
-		&__tr {
-
-			&:first-child {
-				text-transform: none;
-				letter-spacing: 0;
-			}
-
-			&:last-child {
-				font-size: 24px;
-			}
-
-		}
-
-		&__td {
-
-			&:first-child {
-				width: 104px;
-			}
-
-			&:last-child {
-				width: 168px;
-			}
-
-		}
-
-		&__desc {
-			font-size: 14px;
-		}
-
+		margin-left: 8px;
 	}
 
 }
@@ -157,27 +62,29 @@
 	.sales {
 
 		&__wrap {
-			padding: 24px;
+			letter-spacing: 0;
 		}
 
-		&__title {
-			font-size: 16px;
+		&__t1 {
+			font-size: 14px;
 		}
 
-		&__table {
-			width: 248px;
-		}
+		&__t2 {
+			font-size: 20px;
+			margin: 32px 0;
 
-		&__td {
-
-			&:first-child {
-				width: 80px;
+			span {
+				padding: 0;
+				margin-left: 0;
+				background: none;
+				box-shadow: none;
+				color: $link;
 			}
 
-			&:last-child {
-				width: 168px;
-			}
+		}
 
+		&__t3 {
+			font-size: 30px;
 		}
 
 	}
@@ -189,28 +96,16 @@
 
 	.sales {
 
-		&__end {
-			display: none;
+		&__wrap {
+			padding: 24px 0;
+		}
+
+		&__t2 {
+			margin: 20px 0;
 		}
 
 		&__arrow {
-			display: none;
-		}
-
-		&__table {
-			width: 100%;
-		}
-
-		&__td {
-
-			&:first-child {
-				width: 33.3%;
-			}
-
-			&:last-child {
-				width: 66.6%;
-			}
-
+			transform: rotate(90deg);
 		}
 
 	}

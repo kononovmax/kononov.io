@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<!-- <base href="/"> -->
 
-	<title>KONONOV.IO | Главная</title>
+	<title>KONONOV.IO | Web-Разработчик</title>
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,7 +30,7 @@
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
-
+	  gtag('set', {'user_id': 'USER_ID'});
 	  gtag('config', 'UA-141783619-1');
 	</script>
 
@@ -143,6 +143,8 @@
 
 				<a href="articles/prototype.html" class="navbar__link">Граффический прототип</a>
 
+				<a href="articles/design.html" class="navbar__link">Эмоциональный дизайн</a>
+
 			</div>
 
 		</div>
@@ -178,6 +180,24 @@
 	<div class="main__wrap">
 		
 		<div class="main__cards main__cards--margin">
+
+			<div class="card__page card__page--big">
+
+				<a href="/articles/design.html" class="card__wrap" style="background: center / cover url('../img/posters/design_big.jpg') no-repeat;">
+
+					<div class="card__content">
+
+						<p class="card__data small">Статья</p>
+						
+						<h2 class="card__title title2">Веб-Дизайн. Визуальное оформление сайта</h2>
+
+					</div>
+
+					<span class="card__overlay"></span>
+
+				</a>
+
+			</div>
 
 			<div class="card__page card__page--big">
 
@@ -373,7 +393,7 @@
 
 					<input type="hidden" name="project_name" value="Kononov.IO">
 					<input type="hidden" name="admin_email" value="max@kononov.io">
-					<input type="hidden" name="form_subject" value="Порядок сделки">
+					<input type="hidden" name="form_subject" value="Главная">
 
 					<button class="form__btn btn">Оставить заявку</button>
 

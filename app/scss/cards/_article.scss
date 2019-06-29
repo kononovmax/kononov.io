@@ -38,9 +38,25 @@
 
 	}
 
+	&__portfolio {
+		border-radius: 5px;
+		overflow: hidden;
+		box-shadow: $shadow3;
+
+		img {
+			margin-bottom: -4px;
+		}
+
+	}
+
 	&__flex {
 		display: flex;
 		width: 100%;
+
+		&--wrap {
+			flex-wrap: wrap;
+		}
+
 	}
 
 	&__title {

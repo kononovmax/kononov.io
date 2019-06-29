@@ -76,7 +76,7 @@ body {
 	font-weight: 300;
 }
 
-p {
+h1, h2, p {
 	margin: 0;
 }
 
@@ -171,6 +171,7 @@ video {
 @import "cards/landing";
 @import "cards/list";
 @import "cards/sales";
+@import "cards/contacts";
 
 @import "blocks/form";
 @import "blocks/header";
