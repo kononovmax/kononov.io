@@ -5,7 +5,7 @@
 	}
 
 	&__wrap {
-		background: url('../img/posters/landing-big.jpg') no-repeat;
+		background: url('../img/posters/landing_big.jpg') no-repeat;
 		background-size: cover;
 		background-position: center;
 		padding: 104px;
@@ -17,11 +17,6 @@
 		text-align: center;
 	}
 
-	&__logo {
-		width: 24px;
-		margin: 0 auto 64px auto;
-	}
-
 	&__title {
 		height: 104px;
 		max-width: 992px;
@@ -29,7 +24,7 @@
 		font-size: 40px;
 		text-transform: uppercase;
 		letter-spacing: 0.06em;
-		margin: 0 auto 40px auto;
+		margin: 0 auto 168px auto;
 		font-weight: 700;
 		background: $light1;
 		border-radius: 5px;
@@ -127,6 +122,7 @@
 
 		&__wrap {
 			padding: 24px;
+			background: linear-gradient($dark1, $dark2);
 		}
 
 		&__logo {
