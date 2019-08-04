@@ -6,8 +6,8 @@
 	<meta charset="utf-8">
 	<!-- <base href="/"> -->
 
-	<title>Страница отзывов | KONONOV.IO</title>
-	<meta name="description" content="Здесь публикуются отзывы клиентов.">
+	<title>KONONOV.IO | UX / UI</title>
+	<meta name="description" content="Проекты по проектированию взаимодействия.">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -65,19 +65,23 @@
 	<a href="/" class="header__logo">
 		
 		<div class="header__icon">
-			<img src="../img/icons/logo-white.svg">
+			<img src="img/icons/logo-white.svg">
 		</div>
 
 		<div class="header__name">
 			
 			<span class="header__title">Kononov.IO</span>
-			<span class="header__desc">Веб-разработчик</span>
+			<span class="header__desc">UX/UI Designer</span>
 
 		</div>
 
 	</a>
 
 	<div class="header__contacts">
+
+		<a href="https://www.behance.net/kononovm/" class="header__soc" target="_blank">
+			<img src="../img/icons/behance-white.svg">
+		</a>
 
 		<a href="https://vk.com/kononov.design" class="header__soc" target="_blank">
 			<img src="../img/icons/vk-white.svg">
@@ -129,9 +133,9 @@
 
 			<div class="navbar__list">
 			
-				<a href="../service/landings.html" class="navbar__link">Лендинг под ключ</a>
+				<a href="interface.html" class="navbar__link">UX / UI</a>
 
-				<a href="../service/timecolors.html" class="navbar__link">Timecolors</a>
+				<a href="landings.html" class="navbar__link">Лендинги</a>
 
 			</div>
 
@@ -142,103 +146,63 @@
 			<a href="#" class="navbar__head">Публикации</a>
 
 			<div class="navbar__list">
-				
-				<a href="../blog.html" class="navbar__link">Блог</a>
 
-				<a href="../articles.html" class="navbar__link">Статьи</a>
+				<a href="articles.html" class="navbar__link">Статьи</a>
 
 			</div>
 
 		</div>
-
-		<!--
-
-		<div class="navbar__block">
-			
-			<a href="#" class="navbar__head">Кейсы</a>
-
-			<div class="navbar__list">
-
-				<a href="https://www.behance.net/gallery/79601085/Opt-of-China-lending-logisticheskoj-kompanii" class="navbar__link" target="_blank">Opt of China</a>
-
-				<a href="https://www.behance.net/gallery/77437731/Photo-Hunter-Corporate-website-design" class="navbar__link" target="_blank">Photo-Hunter</a>
-
-				<a href="http://dekor-aa.ru/" class="navbar__link" target="_blank">Ключницы "Game of Thrones"</a>
-
-			</div>
-
-		</div>
-
-		-->
 
 		<a href="#" class="navbar__mob callon">Обратный звонок</a>
 
 	</div>
 
+
 <!-- Cards -->
 
 
 	<div class="main__wrap">
+		
+		<div class="main__cards main__cards--margin">
 
+			<div class="card__page card__page--big">
 
-<!-- Article -->
+				<a href="../portfolio/rzd.html" class="card__wrap" style="background: center / cover url('../img/posters/rzd.jpg') no-repeat;">
 
+					<div class="card__content">
 
-		<div class="main__nonav">
-			
-			<div class="main__article">
-
-
-	<!-- Head -->
-
-
-				<section class="card__page card__page--full">
-
-					<div class="card__wrap" style="background: #9C89B8 url('../img/posters/pattern.svg');">
-
-						<div class="card__content">
-
-							<p class="card__data small"><span>Кононов М.</span>июнь 2019</p>
-							
-							<h1 class="card__title title1">Отзывы клиентов</h1>
-
-						</div>
-
-						<div class="card__overlay"></div>
+						<p class="card__data small">UX / UI</p>
+						
+						<h2 class="card__title title2">RZD | Web & App Design</h2>
 
 					</div>
 
-				</section>
+					<span class="card__overlay"></span>
 
+				</a>
 
-	<!-- Отзывы -->
+			</div>
 
+			<div class="card__page card__page--big">
 
-				<section class="article__page" id="id5">
+				<a href="/portfolio/timecolors.html" class="card__wrap" style="background: center / cover url('../img/posters/timecolors.jpg') no-repeat;">
 
-					<div class="article__wrap">
+					<div class="card__content">
 
-						<!-- Put this script tag to the <head> of your page -->
-						<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
-
-						<script type="text/javascript">
-						  VK.init({apiId: 7011484, onlyWidgets: true});
-						</script>
-
-						<!-- Put this div tag to the place, where the Comments block will be -->
-						<div id="vk_comments"></div>
-						<script type="text/javascript">
-						VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
-						</script>
+						<p class="card__data small">Проект</p>
+						
+						<h2 class="card__title title2">Timecolors</h2>
 
 					</div>
 
-				</section>
+					<span class="card__overlay"></span>
+
+				</a>
 
 			</div>
 
 		</div>
-		
+
 	</div>
 
 
@@ -341,7 +305,7 @@
 
 					<input type="hidden" name="project_name" value="Kononov.IO">
 					<input type="hidden" name="admin_email" value="max@kononov.io">
-					<input type="hidden" name="form_subject" value="Отзывы">
+					<input type="hidden" name="form_subject" value="Статьи">
 
 					<button class="form__btn btn">Оставить заявку</button>
 
@@ -354,9 +318,9 @@
 	</div>
 
 </section>
+	
 
-
-<script src="../js/scripts.min.js"></script>
+<script src="js/scripts.min.js"></script>
 
 </body>
 </html>

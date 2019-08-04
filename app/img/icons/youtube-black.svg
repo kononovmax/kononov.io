@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3188" data-name="Rectangle 3188" width="24" height="24" transform="translate(1614 -33)"/>
+    </clipPath>
+  </defs>
+  <g id="youtube-black" transform="translate(-1614 33)" clip-path="url(#clip-path)">
+    <path id="youtube" d="M13.842,67.393H3.628A3.628,3.628,0,0,0,0,71.021v5.106a3.628,3.628,0,0,0,3.628,3.628H13.842a3.628,3.628,0,0,0,3.628-3.628V71.021a3.628,3.628,0,0,0-3.628-3.628Zm-2.454,6.43L6.611,76.1a.192.192,0,0,1-.274-.173v-4.7a.192.192,0,0,1,.278-.171l4.777,2.421a.192.192,0,0,1,0,.346Z" transform="translate(1617 -94.393)"/>
+  </g>
+</svg>
